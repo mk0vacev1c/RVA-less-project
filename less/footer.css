@@ -1,0 +1,90 @@
+footer {
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  margin-top: 50px;
+}
+footer table {
+  margin: 0 auto;
+}
+.box {
+  padding: 2rem;
+}
+.usa-office h1 {
+  text-align: center;
+  color: #27a5de;
+}
+.usa-office i {
+  margin: 0.5rem;
+}
+.srb-office h1 {
+  text-align: center;
+  color: #42b732;
+}
+.srb-office i {
+  margin: 0.5rem;
+}
+.copyright {
+  text-align: center;
+}
+.copyright span {
+  color: #42b732;
+}
+.copyright a {
+  color: #27a5de;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+.copyright a:focus {
+  text-decoration: underline;
+}
+.map {
+  background: url(../images/map-office-location.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-navigation {
+  font-size: 1rem;
+  flex-wrap: wrap;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.footer-navigation li {
+  padding: 0 0.3rem;
+}
+.footer-social-links {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.footer-social-links li {
+  font-size: 2rem;
+}
+.footer-social-links li a:hover {
+  color: #27a5de;
+}
+.footer-social-links li a:focus {
+  color: #27a5de;
+}
+copyright {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+@media (max-width: 830px) {
+  footer {
+    grid-template-columns: auto;
+  }
+  .map {
+    height: 20vh;
+  }
+}
